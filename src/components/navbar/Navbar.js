@@ -7,7 +7,7 @@ const Navbar = () => {
     <header className="bg-card_light fixed right-0 left-0 top-0 z-50">
       <nav className="bg-card_light text-text_primary py-4 max-w-7xl mx-auto flex justify-between items-center px-4 sticky top-0 z-50">
         <div>
-          <Link href="/" className="text-xl font-medium">
+          <Link href="/" className="text-2xl font-medium">
             Tanjil Hossain
           </Link>
         </div>
