@@ -1,0 +1,27 @@
+.model_container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000a7;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    overflow-y: scroll;
+    transition: all 0.5s ease;
+}
+
+.model_wrapper {
+    max-width: 800px;
+    width: 100%;
+    border-radius: 16px;
+    margin: 50px 12px;
+    height: min-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #171721;
+    color: #F2F3F4;
+}

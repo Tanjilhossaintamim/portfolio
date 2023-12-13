@@ -103,14 +103,15 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image: "https://e7.pngegg.com/pngimages/685/833/png-clipart-red-sign-logo-git-logo-icons-logos-emojis-tech-companies-thumbnail.png",
+        image:
+          "https://e7.pngegg.com/pngimages/685/833/png-clipart-red-sign-logo-git-logo-icons-logos-emojis-tech-companies-thumbnail.png",
       },
       {
         name: "GitHub",
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
-      
+
       {
         name: "Netlify",
         image:
@@ -396,7 +397,7 @@ export const projects = [
       "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
     tags: ["React Js", "Firebase", "Firestore", "Node JS"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
+    github_client: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
     webapp: "https://whatsapp-clone-rishav.web.app",
   },
   {

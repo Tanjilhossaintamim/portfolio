@@ -10,6 +10,7 @@ const nextConfig = {
       { protocol: "https", hostname: "github.githubassets.com" },
       { protocol: "https", hostname: "seeklogo.com" },
       { protocol: "https", hostname: "w7.pngwing.com" },
+      { protocol: "https", hostname: "user-images.githubusercontent.com" },
     ],
   },
 };

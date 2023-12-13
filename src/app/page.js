@@ -2,6 +2,7 @@ import Hero from "@/components/hero/Hero";
 import Navbar from "@/components/navbar/Navbar";
 import styles from "./home.module.css";
 import Skills from "@/components/skills/Skills";
+import Projects from "@/components/projects/Projects";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <div className={styles.wrapper}>
         <Skills />
       </div>
+      <Projects />
     </div>
   );
 }
