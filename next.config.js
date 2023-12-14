@@ -11,6 +11,7 @@ const nextConfig = {
       { protocol: "https", hostname: "seeklogo.com" },
       { protocol: "https", hostname: "w7.pngwing.com" },
       { protocol: "https", hostname: "user-images.githubusercontent.com" },
+      { protocol: "https", hostname: "i.ibb.co" },
     ],
   },
 };

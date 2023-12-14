@@ -2,6 +2,7 @@ import { CloseRounded, GitHub, LinkedIn } from "@mui/icons-material";
 import { Modal } from "@mui/material";
 import Tags from "../Tags/Tags";
 import styles from "./Model.module.css";
+import Image from "next/image";
 const ProjectModal = ({ project, setOpenModal }) => {
   return (
     <Modal open={true}>
@@ -16,8 +17,11 @@ const ProjectModal = ({ project, setOpenModal }) => {
             }}
             onClick={() => setOpenModal({ state: false, project: null })}
           />
-          <img
+          <Image
             src={project?.image}
+            alt={project.title}
+            width={500}
+            height={200}
             className="w-full object-cover rounded-xl mt-7 shadow"
           />
           <h1 className="text-[28px] font-semibold text-text_primary m-2">
@@ -33,7 +37,7 @@ const ProjectModal = ({ project, setOpenModal }) => {
           {/* buttons */}
           <div className="flex justify-end my-3 gap-3">
             <a
-              href="/"
+              href={project.github_client}
               target="_blank"
               className="w-full text-center text-xs lg:text-base font-semibold text-text_primary py-3 px-4 
               transition-colors rounded-lg  bg-bg hover:bg-primary"

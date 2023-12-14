@@ -30,7 +30,7 @@ const Hero = () => {
               {Bio.description}
             </div>
             <a
-              href="https://drive.google.com/file/d/1Ne66SkSV6oQ-B1Yh-pu6WBgU4a_HedFG/view?usp=sharing"
+              href="https://drive.google.com/file/d/1yDASYzdH0dRvWQRZNUsJueKT9176wyrd/view?usp=sharing"
               target="_blank"
               className={styles.resume_btn}
             >

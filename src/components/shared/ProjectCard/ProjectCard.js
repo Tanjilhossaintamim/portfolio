@@ -9,7 +9,7 @@ const ProjectCard = ({ project, setOpenModal }) => {
       className={styles.project_card}
       onClick={() => setOpenModal({ state: true, project })}
     >
-      <img src={project.image} alt="img" width={330} height={180} />
+      <Image src={project.image} alt="img" width={330} height={180} />
       <Tags project={project} />
       <div className="grow">
         <ProductDetails project={project} />

@@ -21,17 +21,27 @@ const Projects = () => {
           {/* button group */}
           <GroupButton activeTab={activeTab} setActiveTab={setActiveTab} />
           <div className="flex justify-center items-center gap-7 flex-wrap">
-            {projects.map((project) => (
-              <ProjectCard
-                key={project}
-                project={project}
-                setOpenModal={setOpenModal}
-              />
-            ))}
+            {activeTab == "All" &&
+              projects.map((project) => (
+                <ProjectCard
+                  key={project}
+                  project={project}
+                  setOpenModal={setOpenModal}
+                />
+              ))}
+            {projects
+              .filter((item) => item.category == activeTab)
+              .map((project) => (
+                <ProjectCard
+                  key={project}
+                  project={project}
+                  setOpenModal={setOpenModal}
+                />
+              ))}
           </div>
         </div>
       </div>
-      {/* {openModal.state && <div>Hellow</div>} */}
+
       {openModal.state && (
         <ProjectModal project={openModal.project} setOpenModal={setOpenModal} />
       )}
