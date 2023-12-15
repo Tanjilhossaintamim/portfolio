@@ -4,6 +4,7 @@ import styles from "./home.module.css";
 import Skills from "@/components/skills/Skills";
 import Projects from "@/components/projects/Projects";
 import Contact from "@/components/Contact/Contact";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <div className={styles.wrapper}>
         <Contact />
       </div>
+      <Footer/>
     </div>
   );
 }
