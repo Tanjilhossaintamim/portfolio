@@ -2,6 +2,7 @@ import Link from "next/link";
 import styles from "./Footer.module.css";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import Year from "./Year";
 
 const Footer = () => {
   return (
@@ -57,24 +58,26 @@ const Footer = () => {
           <ul className="flex items-center space-x-8 text-text_primary text-lg font-medium">
             <li>
               <a
-                href="#About"
+                href="https://www.facebook.com/innosent.boy.Iam/"
+                target="_blank"
                 className="hover:text-primary transition-colors text-2xl"
               >
                 <FaSquareFacebook />
               </a>
             </li>
             <li>
-              <Link
-                href="#Skills"
+              <a
+                href="https://www.linkedin.com/in/tanjilhossain/"
+                target="_blank"
                 className="hover:text-primary transition-colors text-2xl"
               >
                 <FaLinkedin />
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
         <p className="text-center text-xs text-text2">
-          © 2024 Tanjil Hossain. All rights reserved.
+          © <Year /> Tanjil Hossain. All rights reserved.
         </p>
       </div>
     </div>

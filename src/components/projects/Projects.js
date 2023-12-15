@@ -22,9 +22,9 @@ const Projects = () => {
           <GroupButton activeTab={activeTab} setActiveTab={setActiveTab} />
           <div className="flex justify-center items-center gap-7 flex-wrap">
             {activeTab == "All" &&
-              projects.map((project) => (
+              projects.map((project,i) => (
                 <ProjectCard
-                  key={project}
+                  key={i}
                   project={project}
                   setOpenModal={setOpenModal}
                 />
