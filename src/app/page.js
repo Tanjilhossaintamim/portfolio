@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar/Navbar";
 import styles from "./home.module.css";
 import Skills from "@/components/skills/Skills";
 import Projects from "@/components/projects/Projects";
+import Contact from "@/components/Contact/Contact";
 
 export default function Home() {
   return (
@@ -13,6 +14,9 @@ export default function Home() {
         <Skills />
       </div>
       <Projects />
+      <div className={styles.wrapper}>
+        <Contact />
+      </div>
     </div>
   );
 }

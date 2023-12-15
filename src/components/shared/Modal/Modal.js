@@ -56,7 +56,7 @@ const ProjectModal = ({ project, setOpenModal }) => {
             )}
 
             <a
-              href="/"
+              href={project.webapp}
               target="_blank"
               className="w-full text-center text-xs lg:text-base font-semibold text-text_primary py-3 px-4 rounded-lg bg-primary
               transition-colors hover:bg-bg"
