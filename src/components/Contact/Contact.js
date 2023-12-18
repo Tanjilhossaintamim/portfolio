@@ -41,23 +41,27 @@ const Contact = () => {
             type="email"
             className={styles.input}
             placeholder="Your Email"
+            name="from_email"
             required
           />
           <input
             type="text"
             className={styles.input}
             placeholder="Your Name"
+            name="from_name"
             required
           />
           <input
             type="text"
             className={styles.input}
             placeholder="Subject"
+            name="subject"
             required
           />
           <textarea
             className={styles.input}
             placeholder="Message"
+            name="message"
             rows={4}
             required
           />
